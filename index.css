@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+button{
+  font-size: 1rem;
+  font-family: Arial, 'sans-serif';
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 80px;
+  padding: 0 2rem;
+
+  font-size: 1.1rem;
+
+  background: #121214;
+
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+header .logo {
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+header .logo .side-a-side {
+  display: flex;
+  gap: 1rem;
+}
+
+header .links{
+  display: flex;
+  gap: 1rem;
+}
+
+header .links a{
+  text-decoration: none;
+  color: #5f5f6a;
+
+  transition: color 0.2s;
+}
+
+header .links a:hover{
+  text-decoration: none;
+  color: #fff;
+}
+
+.container{
+  max-width: 1120px;
+  width: 100%;
+  margin: 0 auto;
+}
